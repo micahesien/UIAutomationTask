@@ -1,0 +1,53 @@
+{
+  "id": "3a1cb9cf-3917-4b90-9fb5-784d3c339ba5",
+  "version": "2.0",
+  "name": "Deydam",
+  "url": "https://dev.d2rxvhrryr2bkn.amplifyapp.com/",
+  "tests": [{
+    "id": "37fe0fe1-8e81-4639-9f80-37d6b4557532",
+    "name": "Deydam",
+    "commands": [{
+      "id": "aefa4234-1868-4855-a126-c37ac819c4ae",
+      "comment": "",
+      "command": "open",
+      "target": "chrome-extension://mooikfkahbdckldjjndioackbalphokd/bootstrap.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c73e1e30-9055-4f85-b73e-1ff833d1a06b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b8990dc-90c0-40de-bf40-9fa0027a37f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"],
+        ["xpath=//html[contains(.,'Preparing to run your test')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e7db221-585f-4460-b4d9-e65cc1407980",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Selenium IDE Test Preparation",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "82c9fd9a-3a68-4b65-a7a1-b4c28e738f06",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["37fe0fe1-8e81-4639-9f80-37d6b4557532"]
+  }],
+  "urls": ["https://dev.d2rxvhrryr2bkn.amplifyapp.com/"],
+  "plugins": []
+}
